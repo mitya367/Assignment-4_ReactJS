@@ -1,0 +1,46 @@
+/*.blogs1{
+  float: "left";
+  padding:"30px";
+  width:"60%";
+  height:"1000px";
+  margin-left:"auto";
+  margin-right:"auto";
+  display: -webkit-flex;
+  display: flex;
+}*/
+
+.mainBlogs {
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(102, 118, 119);
+ color: rgb(193, 247, 227);
+}
+
+.blogs {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(193, 247, 227);
+  float: left;
+  width: 95%;
+  padding: 10px;
+}
+
+.image {
+  -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+  -moz-columns: 100px 3; /* Firefox */
+  columns: 100px 3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link{
+  color:rgb(242, 250, 247);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.sum{
+  text-align: justify;
+  text-justify: inter-word;
+}
